@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7969a4ae.css",
+    "main.js": "/static/js/main.c66eb886.js",
+    "static/media/banner.jpg": "/static/media/banner.9b98cc31f6a5b846f34a.jpg",
+    "static/media/Flag_of_India.png": "/static/media/Flag_of_India.f90d9222ad816550906f.png",
+    "static/media/main.jpg": "/static/media/main.513d0b2e81e998ec9d00.jpg",
+    "index.html": "/index.html",
+    "main.7969a4ae.css.map": "/static/css/main.7969a4ae.css.map",
+    "main.c66eb886.js.map": "/static/js/main.c66eb886.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7969a4ae.css",
+    "static/js/main.c66eb886.js"
+  ]
+}
