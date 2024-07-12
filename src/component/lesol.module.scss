@@ -1,0 +1,166 @@
+.feturesbar {
+  background: #203040;
+  width: 100%;
+  .wrapper {
+    width: 100%;
+    margin: 0 auto;
+    .featers {
+      display: block;
+      .featersproj {
+        display: flex;
+        position: absolute;
+        background: #203040;
+        padding: 10px 50px;
+        left: 32%;
+        bottom: -29px;
+        span {
+          font-size: 31px;
+          color: #555;
+          font-weight: 500;
+        }
+      }
+    }
+    .mainfeters {
+      display: flex;
+      width: 100%;
+      .RESIDENCE {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background: #203040;
+        .resdatabar {
+          padding-left: 80px;
+          h2 {
+            font-size: 60px;
+            font-weight: 600;
+            color: #fff;
+            padding: 0;
+            margin: 0;
+          }
+          p {
+            font-size: 16px;
+            color: #fff;
+            line-height: 1.6;
+            width: 500px;
+          }
+          a {
+            font-size: 14px;
+            color: #4d7092;
+            text-decoration: none;
+            line-height: 70px;
+            padding: 20px 50px;
+          }
+        }
+      }
+      .imgbar {
+        width: 50%;
+        .imgbox {
+          width: 100%;
+          display: flex;
+          position: relative;
+          img {
+            width: 100%;
+            height: 600px;
+          }
+          .owl-dots {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+          }
+        }
+        .roopbar {
+          display: flex;
+          background: #203040;
+          padding: 10px 0px;
+          margin-top: -3px;
+          width: 100%;
+          .roobmain {
+            width: 32%;
+            display: flex;
+            height: 150px;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            border-right: solid 1px #ddd;
+            &:last-child {
+              border: none;
+            }
+            h2 {
+              font-size: 20px;
+              color: #fff;
+              font-weight: 500;
+              padding: 0;
+              margin: 0;
+            }
+            p {
+              font-size: 16px;
+              color: #fff;
+              font-weight: 300;
+              padding: 0;
+              margin: 0;
+              line-height: 25px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 360px) and (max-device-width: 767px) {
+  .feturesbar {
+    .wrapper {
+      width: 100%;
+      .mainfeters {
+        display: block;
+        width: 100%;
+        .RESIDENCE {
+          width: 100%;
+          .resdatabar {
+            padding: 30px 10px;
+            h2 {
+              font-size: 40px;
+              font-weight: 600;
+              color: #fff;
+              padding: 0;
+              margin: 0;
+            }
+            p {
+              font-size: 16px;
+              color: #fff;
+              line-height: 1.6;
+              width: 340px;
+            }
+            a {
+              font-size: 14px;
+              text-decoration: none;
+              line-height: 70px;
+              display: flex;
+              justify-content: center;
+            }
+          }
+        }
+        .imgbar {
+          width: 100%;
+          .imgbox {
+            width: 100%;
+            img {
+              width: 100%;
+              height: 300px;
+            }
+          }
+          .roopbar {
+            flex-wrap: wrap;
+            .roobmain {
+              width: 100%;
+              border: none;
+              border-bottom: solid 1px #ddd;
+            }
+          }
+        }
+      }
+    }
+  }
+}
