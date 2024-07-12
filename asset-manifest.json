@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.7969a4ae.css",
-    "main.js": "/static/js/main.4cabcdb5.js",
-    "static/media/banner.jpg": "/static/media/banner.9b98cc31f6a5b846f34a.jpg",
-    "static/media/Flag_of_India.png": "/static/media/Flag_of_India.f90d9222ad816550906f.png",
-    "static/media/main.jpg": "/static/media/main.513d0b2e81e998ec9d00.jpg",
-    "index.html": "/index.html",
-    "main.7969a4ae.css.map": "/static/css/main.7969a4ae.css.map",
-    "main.4cabcdb5.js.map": "/static/js/main.4cabcdb5.js.map"
+    "main.css": "/react-github/static/css/main.3938d7ab.css",
+    "main.js": "/react-github/static/js/main.3464d519.js",
+    "static/media/banner.jpg": "/react-github/static/media/banner.9b98cc31f6a5b846f34a.jpg",
+    "static/media/Flag_of_India.png": "/react-github/static/media/Flag_of_India.f90d9222ad816550906f.png",
+    "static/media/main.jpg": "/react-github/static/media/main.513d0b2e81e998ec9d00.jpg",
+    "index.html": "/react-github/index.html",
+    "main.3938d7ab.css.map": "/react-github/static/css/main.3938d7ab.css.map",
+    "main.3464d519.js.map": "/react-github/static/js/main.3464d519.js.map"
   },
   "entrypoints": [
-    "static/css/main.7969a4ae.css",
-    "static/js/main.4cabcdb5.js"
+    "static/css/main.3938d7ab.css",
+    "static/js/main.3464d519.js"
   ]
 }
