@@ -1,254 +1,134 @@
-.footer {
-  display: block;
-  background: #102942;
-  .wrapper {
-    width: 1100px;
-    margin: 0 auto;
-    .footerbar {
-      display: flex;
-      justify-content: space-between;
-      width: 100%;
-      padding: 20px 0px;
-      .connect {
-        width: 22%;
-        h2 {
-          font-size: 16px;
-          color: #fff;
-          font-weight: 600;
-          padding: 0;
-          margin: 0;
-          span {
-            width: 40px;
-            height: 2px;
-            background: #fff;
-            display: block;
-            margin-top: 10px;
-          }
-        }
-        h3 {
-          font-size: 18px;
-          color: #fff;
-          font-weight: 600;
-        }
-        p {
-          font-size: 15px;
-          color: #f1f1f1;
-          line-height: 25px;
-        }
-        h4 {
+.overlaybar {
+  background-image: url(../img/main.jpg);
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px 10px;
+  z-index: 99999;
+  width: 700px;
+  height: 470px;
+  position: fixed;
+  top: 30px;
+  left: 0;
+  &::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  .overlay {
+    padding: 20px 20px;
+    border: dotted 2px #ddd;
+    h2 {
+      font-size: 30px;
+      color: #f1f1f1;
+      font-weight: 300;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+    }
+    form {
+      margin-top: 20px;
+      .inputbar {
+        display: block;
+        margin-top: 8px;
+        label {
           font-size: 16px;
           color: #f1f1f1;
           font-weight: 400;
+          padding: 5px 0px;
         }
-        span {
-          font-size: 14px;
-          color: #f1f1f1;
-        }
-      }
-      .LatestNews {
-        display: block;
-        width: 32%;
-        h2 {
-          font-size: 16px;
-          color: #fff;
-          font-weight: 600;
-          padding: 0;
-          margin: 0;
-          span {
-            width: 40px;
-            height: 2px;
-            background: #fff;
-            display: block;
-            margin-top: 10px;
-          }
-        }
-        .mainlatest {
-          display: flex;
-          gap: 15px;
-          padding: 15px 0px;
-          align-items: center;
-          border-bottom: solid 1px #ddd;
-          &:last-child {
-            border: none;
-          }
-          .datebar {
-            display: block;
-            border: solid 1px #f1f1f1;
-            padding: 0px 6px;
-            span {
-              font-size: 12px;
-              color: #f1f1f1;
-            }
-          }
-          .datebar1 {
-            display: block;
-            a {
-              text-decoration: none;
-              font-size: 15px;
-              color: #f1f1f1;
-            }
-            p {
-              font-size: 10px;
-              color: #ddd;
-            }
-          }
-        }
-      }
-      .signup {
-        width: 35%;
-        h2 {
-          font-size: 16px;
-          color: #fff;
-          font-weight: 600;
-          padding: 0;
-          margin: 0;
-          span {
-            width: 40px;
-            height: 2px;
-            background: #fff;
-            display: block;
-            margin-top: 10px;
-          }
-        }
-        p {
-          font-size: 15px;
-          color: #f1f1f1;
-        }
-        .inputbar {
-          display: block;
-          margin-top: 30px;
-          input {
-            width: 170px;
-            padding: 10px 15px;
-            outline: none;
-            background: #405468;
-            border-radius: 20px;
-            border: none;
-            &::placeholder {
-              color: #f1f1f1;
-              font-size: 14px;
-            }
-          }
-        }
-        .signbutton {
-          margin-top: 15px;
-          display: block;
-          button {
-            padding: 12px 12px;
+        input {
+          width: 100%;
+          max-width: 400px;
+          padding: 14px 20px;
+          outline: none;
+          border: none;
+          border-radius: 20px;
+          background-color: #757575 !important;
+          margin-top: 6px;
+          &::placeholder {
+            color: #ddd;
             font-size: 14px;
-            color: #555;
-            background: #f1f1f1;
-            border-radius: 20px;
-            border: none;
           }
         }
       }
-    }
-    .dowmfooter {
-      display: flex;
-      justify-content: space-between;
-      .ptext {
+      .inputbar1 {
         display: block;
-        p {
-          font-size: 13px;
-          color: hsla(0, 0%, 100%, 0.5);
-        }
-      }
-      .iconbar {
-        display: flex;
-        align-items: center;
-        p {
-          color: hsla(0, 0%, 100%, 0.5);
-          font-size: 12px;
-        }
-        .first {
-          display: block;
-          a {
-            font-size: 16px;
-            color: #405468;
-            border: solid 1px #004080;
-            border-radius: 50%;
-            padding: 6px 10px;
-            &:hover {
-              background: #003399;
-              color: #fff;
-              transition: 0.6s;
-            }
-          }
-        }
-        .second {
-          display: block;
-          a {
-            font-size: 16px;
-            color: #405468;
-            border: solid 1px #004080;
-            border-radius: 50%;
-            padding: 6px 10px;
-            &:hover {
-              background: #004d80;
-              color: #fff;
-              transition: 0.6s;
-            }
-          }
-        }
-      }
-      .third {
-        display: block;
-        a {
+        margin-top: 8px;
+        position: relative;
+        label {
           font-size: 16px;
-          color: #405468;
-          border: solid 1px #004080;
-          border-radius: 50%;
-          padding: 6px 10px;
-          &:hover {
-            background: #007acc;
-            color: #fff;
-            transition: 0.6s;
+          color: #f1f1f1;
+          font-weight: 400;
+          padding: 5px 0px;
+        }
+        input {
+          width: 100%;
+          max-width: 250px;
+          padding: 14px 44px;
+          outline: none;
+          border: none;
+          border-radius: 20px;
+          background: #757575;
+          margin-top: 6px;
+          &::placeholder {
+            color: #ddd;
+            font-size: 14px;
+          }
+        }
+        .imagebar {
+          display: flex;
+          position: absolute;
+          top: 70%;
+          left: 10px;
+          transform: translateY(-50%);
+          img {
+            width: 25px;
+            height: 18px;
           }
         }
       }
-      .fourth {
+      .inputbar2 {
         display: block;
-        a {
+        margin-top: 8px;
+        label {
           font-size: 16px;
-          color: #405468;
-          border: solid 1px #004080;
-          border-radius: 50%;
-          padding: 6px 10px;
-          &:hover {
-            background: #990000;
-            color: #fff;
-            transition: 0.6s;
-          }
+          color: #f1f1f1;
+          font-weight: 400;
+          padding: 5px 0px;
+        }
+        select {
+          width: 100%;
+          max-width: 400px;
+          padding: 14px 20px;
+          outline: none;
+          border: none;
+          border-radius: 20px;
+          background: #757575;
+          color: #ddd;
+          font-size: 14px;
+          margin-top: 6px;
         }
       }
-      .five {
+      .buttonbar {
         display: block;
-        a {
-          font-size: 16px;
-          color: #405468;
-          border: solid 1px #004080;
-          border-radius: 50%;
-          padding: 6px 10px;
+        margin-top: 8px;
+        button {
+          padding: 15px 50px;
+          border: none;
+          outline: none;
+          border-radius: 20px;
+          background: #757575;
+          color: #ddd;
+          font-size: 14px;
+          cursor: pointer;
           &:hover {
-            background: #0059b3;
-            color: #fff;
-            transition: 0.6s;
-          }
-        }
-      }
-      .six {
-        display: block;
-        a {
-          font-size: 16px;
-          color: #405468;
-          border: solid 1px #004080;
-          border-radius: 50%;
-          padding: 6px 10px;
-          &:hover {
-            background: #800000;
-            color: #fff;
-            transition: 0.6s;
+            background: #626262;
           }
         }
       }
@@ -256,271 +136,14 @@
   }
 }
 
-@media screen and (min-width: 360px) and (max-device-width: 767px) {
-  .footer {
-    display: block;
-    width: 100%;
-    padding: 0px 15px;
-    .wrapper {
-      width: 100%;
-      .footerbar {
-        display: block;
-        width: 100%;
-        .connect {
-          width: 100%;
-          h2 {
-            font-size: 16px;
-            color: #fff;
-            font-weight: 600;
-            padding: 0px 15px;
-            margin: 0;
-            span {
-              width: 40px;
-              height: 2px;
-              background: #fff;
-              display: block;
-              margin-top: 10px;
-            }
-          }
-          h3 {
-            font-size: 18px;
-            color: #fff;
-            font-weight: 600;
-            padding: 0px 15px;
-          }
-          p {
-            font-size: 15px;
-            color: #f1f1f1;
-            line-height: 25px;
-            padding: 0px 15px;
-          }
-          h4 {
-            font-size: 16px;
-            color: #f1f1f1;
-            font-weight: 400;
-            padding: 0px 15px;
-          }
-          span {
-            font-size: 14px;
-            color: #f1f1f1;
-            padding: 0px 15px;
-          }
-        }
-        .LatestNews {
-          display: block;
-          width: 100%;
-          margin-top: 20px;
-          h2 {
-            font-size: 16px;
-            color: #fff;
-            font-weight: 600;
-            padding: 0px 15px;
-            margin: 0;
-            span {
-              width: 40px;
-              height: 2px;
-              background: #fff;
-              display: block;
-              margin-top: 10px;
-            }
-          }
-          .mainlatest {
-            display: flex;
-            gap: 15px;
-            padding: 15px 15px;
-            align-items: center;
-            border-bottom: solid 1px #ddd;
-            &:last-child {
-              border: none;
-            }
-            .datebar {
-              display: block;
-              border: solid 1px #f1f1f1;
-              padding: 0px 6px;
-              span {
-                font-size: 12px;
-                color: #f1f1f1;
-              }
-            }
-            .datebar1 {
-              display: block;
-              a {
-                text-decoration: none;
-                font-size: 15px;
-                color: #f1f1f1;
-              }
-              p {
-                font-size: 10px;
-                color: #ddd;
-              }
-            }
-          }
-        }
-        .signup {
-          margin-top: 20px;
-          width: 100%;
-          h2 {
-            font-size: 16px;
-            color: #fff;
-            font-weight: 600;
-            padding: 0px 15px;
-            margin: 0;
-            span {
-              width: 40px;
-              height: 2px;
-              background: #fff;
-              display: block;
-              margin-top: 10px;
-            }
-          }
-          p {
-            font-size: 15px;
-            color: #f1f1f1;
-            width: 80%;
-            padding: 0px 15px;
-          }
-          .inputbar {
-            display: block;
-            margin-top: 30px;
-            padding: 0px 15px;
-            input {
-              width: 250px;
-              padding: 13px 15px;
-              outline: none;
-              background: #405468;
-              border-radius: 20px;
-              border: none;
-              &::placeholder {
-                color: #f1f1f1;
-                font-size: 14px;
-              }
-            }
-          }
-          .signbutton {
-            margin-top: 15px;
-            display: block;
-            button {
-              padding: 13px 20px;
-              font-size: 14px;
-              color: #555;
-              background: #f1f1f1;
-              border-radius: 20px;
-              border: none;
-            }
-          }
-        }
-      }
-      .dowmfooter {
-        display: block;
-        justify-content: space-between;
-        .ptext {
-          display: block;
-          p {
-            font-size: 13px;
-            color: hsla(0, 0%, 100%, 0.5);
-            padding: 0px 15px;
-          }
-        }
-        .iconbar {
-          display: flex;
-          align-items: center;
-          p {
-            color: hsla(0, 0%, 100%, 0.5);
-            font-size: 12px;
-            padding: 0px 15px;
-          }
-          .first {
-            display: block;
-            a {
-              font-size: 16px;
-              color: #405468;
-              border: solid 1px #004080;
-              border-radius: 50%;
-              padding: 6px 10px;
-              &:hover {
-                background: #003399;
-                color: #fff;
-                transition: 0.6s;
-              }
-            }
-          }
-          .second {
-            display: block;
-            a {
-              font-size: 16px;
-              color: #405468;
-              border: solid 1px #004080;
-              border-radius: 50%;
-              padding: 6px 10px;
-              &:hover {
-                background: #004d80;
-                color: #fff;
-                transition: 0.6s;
-              }
-            }
-          }
-        }
-        .third {
-          display: block;
-          a {
-            font-size: 16px;
-            color: #405468;
-            border: solid 1px #004080;
-            border-radius: 50%;
-            padding: 6px 10px;
-            &:hover {
-              background: #007acc;
-              color: #fff;
-              transition: 0.6s;
-            }
-          }
-        }
-        .fourth {
-          display: block;
-          a {
-            font-size: 16px;
-            color: #405468;
-            border: solid 1px #004080;
-            border-radius: 50%;
-            padding: 6px 10px;
-            &:hover {
-              background: #990000;
-              color: #fff;
-              transition: 0.6s;
-            }
-          }
-        }
-        .five {
-          display: block;
-          a {
-            font-size: 16px;
-            color: #405468;
-            border: solid 1px #004080;
-            border-radius: 50%;
-            padding: 6px 10px;
-            &:hover {
-              background: #0059b3;
-              color: #fff;
-              transition: 0.6s;
-            }
-          }
-        }
-        .six {
-          display: block;
-          a {
-            font-size: 16px;
-            color: #405468;
-            border: solid 1px #004080;
-            border-radius: 50%;
-            padding: 6px 10px;
-            &:hover {
-              background: #800000;
-              color: #fff;
-              transition: 0.6s;
-            }
-          }
-        }
-      }
-    }
-  }
+.crossbar {
+  display: flex;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  z-index: 9;
+  cursor: pointer;
 }
