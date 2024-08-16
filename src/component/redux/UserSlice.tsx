@@ -30,12 +30,16 @@ export const initialState: CounterState = {
 };
 
 export const databar = createAsyncThunk("databar", async () => {
-  const data = await fetch("http://localhost:7000/header");
+  const data = await fetch(
+    "https://gitgauravsingh.github.io/nodeApi/Api/header.json"
+  );
   return data.json();
 });
 
 export const bannerdata = createAsyncThunk("bannerdata", async () => {
-  const banner = await fetch("http://localhost:7000/banner");
+  const banner = await fetch(
+    "https://gitgauravsingh.github.io/nodeApi/Api/banner.json"
+  );
   return banner.json();
 });
 
