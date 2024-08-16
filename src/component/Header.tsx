@@ -78,9 +78,8 @@ const Header = () => {
             <Form handelclick={handleoverlay} />
           </div>
         )}
-
-        <div className={Style.mainnav}>
-          <StickyBox offsetTop={20} offsetBottom={20}>
+        <StickyBox>
+          <div className={Style.mainnav}>
             <div className={Style.mainhead}>
               <div
                 className={Style.responsibe}
@@ -181,8 +180,8 @@ const Header = () => {
                 </div>
               </div>
             </div>
-          </StickyBox>
-        </div>
+          </div>
+        </StickyBox>
         <div className={Style.maintext}>
           <div className={Style.textbar}>
             <h2>CREDO INVESTMENTS FZE</h2>
