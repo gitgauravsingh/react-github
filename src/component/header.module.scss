@@ -244,6 +244,7 @@
       align-items: center;
       flex-direction: column;
       height: 100%;
+
       h2 {
         font-size: 29px;
         color: #fff;
@@ -360,6 +361,15 @@
             text-align: center;
           }
         }
+      }
+    }
+  }
+  .maintext {
+    text-align: center;
+    .textbar {
+      padding: 0px 10px;
+      h2 {
+        font-size:27px;
       }
     }
   }
