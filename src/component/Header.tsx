@@ -69,16 +69,17 @@ const Header = () => {
 
   return (
     <>
-      <div className={Style.headerbar}>
-        <div className={Style.bannerimg}>
-          <img src={Img} alt="" />
-        </div>
-        {overlay && (
-          <div className={Style.overlaybox} id={Style.overlay}>
-            <Form handelclick={handleoverlay} />
+      <StickyBox>
+        <div className={Style.headerbar}>
+          <div className={Style.bannerimg}>
+            <img src={Img} alt="" />
           </div>
-        )}
-        <StickyBox>
+          {overlay && (
+            <div className={Style.overlaybox} id={Style.overlay}>
+              <Form handelclick={handleoverlay} />
+            </div>
+          )}
+
           <div className={Style.mainnav}>
             <div className={Style.mainhead}>
               <div
@@ -181,17 +182,18 @@ const Header = () => {
               </div>
             </div>
           </div>
-        </StickyBox>
-        <div className={Style.maintext}>
-          <div className={Style.textbar}>
-            <h2>CREDO INVESTMENTS FZE</h2>
-            <p>Your search for the luxury home in Dubai ends here.</p>
-            <div className={Style.knowbar}>
-              <a href="/about">KNOW MORE</a>
+
+          <div className={Style.maintext}>
+            <div className={Style.textbar}>
+              <h2>CREDO INVESTMENTS FZE</h2>
+              <p>Your search for the luxury home in Dubai ends here.</p>
+              <div className={Style.knowbar}>
+                <a href="/about">KNOW MORE</a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </StickyBox>
     </>
   );
 };
