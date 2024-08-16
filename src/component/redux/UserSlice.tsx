@@ -44,12 +44,16 @@ export const bannerdata = createAsyncThunk("bannerdata", async () => {
 });
 
 export const featers = createAsyncThunk("featers", async () => {
-  const featerbar = await fetch("http://localhost:7000/featers");
+  const featerbar = await fetch(
+    "https://gitgauravsingh.github.io/nodeApi/Api/featers.json"
+  );
   return featerbar.json();
 });
 
 export const footerdata = createAsyncThunk("footerdata", async () => {
-  const footer = await fetch("http://localhost:7000/footer");
+  const footer = await fetch(
+    "https://gitgauravsingh.github.io/nodeApi/Api/footer.json"
+  );
   return footer.json();
 });
 
@@ -59,7 +63,9 @@ export const searchdata = createAsyncThunk("searchdata", async () => {
 });
 
 export const aboutpage = createAsyncThunk("aboutpage", async () => {
-  const aboutp = await fetch(`http://localhost:7000/aboutp`);
+  const aboutp = await fetch(
+    `https://gitgauravsingh.github.io/nodeApi/Api/aboutpage.json`
+  );
   return aboutp.json();
 });
 
