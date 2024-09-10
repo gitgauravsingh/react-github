@@ -514,3 +514,261 @@
     }
   }
 }
+@media screen and (min-width: 768px) and (max-device-width: 992px) {
+  .footer {
+    display: block;
+    padding: 0px 20px;
+
+    .wrapper {
+      width: 100%;
+      .footerbar {
+        display: block;
+        width: 100%;
+        .connect {
+          width: 100%;
+          h2 {
+            font-size: 16px;
+            color: #fff;
+            font-weight: 600;
+            margin: 0;
+            span {
+              width: 40px;
+              height: 2px;
+              background: #fff;
+              display: block;
+              margin-top: 10px;
+            }
+          }
+          h3 {
+            font-size: 18px;
+            color: #fff;
+            font-weight: 600;
+          }
+          p {
+            font-size: 15px;
+            color: #f1f1f1;
+            line-height: 25px;
+          }
+          h4 {
+            font-size: 16px;
+            color: #f1f1f1;
+            font-weight: 400;
+          }
+          span {
+            font-size: 14px;
+            color: #f1f1f1;
+          }
+        }
+        .LatestNews {
+          display: block;
+          width: 100%;
+          margin-top: 20px;
+          h2 {
+            font-size: 16px;
+            color: #fff;
+            font-weight: 600;
+            margin: 0;
+            span {
+              width: 40px;
+              height: 2px;
+              background: #fff;
+              display: block;
+              margin-top: 10px;
+            }
+          }
+          .mainlatest {
+            display: flex;
+            gap: 15px;
+            padding: 15px 15px;
+            align-items: center;
+            border-bottom: solid 1px #ddd;
+            &:last-child {
+              border: none;
+            }
+            .datebar {
+              display: block;
+              border: solid 1px #f1f1f1;
+              padding: 0px 6px;
+              span {
+                font-size: 12px;
+                color: #f1f1f1;
+              }
+            }
+            .datebar1 {
+              display: block;
+              a {
+                text-decoration: none;
+                font-size: 15px;
+                color: #f1f1f1;
+              }
+              p {
+                font-size: 10px;
+                color: #ddd;
+              }
+            }
+          }
+        }
+        .signup {
+          margin-top: 20px;
+          width: 100%;
+          h2 {
+            font-size: 16px;
+            color: #fff;
+            font-weight: 600;
+            margin: 0;
+            span {
+              width: 40px;
+              height: 2px;
+              background: #fff;
+              display: block;
+              margin-top: 10px;
+            }
+          }
+          p {
+            font-size: 15px;
+            color: #f1f1f1;
+            width: 80%;
+          }
+          .inputbar {
+            display: block;
+            margin-top: 30px;
+            input {
+              width: 250px;
+              padding: 13px 15px;
+              outline: none;
+              background: #405468;
+              border-radius: 20px;
+              border: none;
+              &::placeholder {
+                color: #f1f1f1;
+                font-size: 14px;
+              }
+            }
+          }
+          .signbutton {
+            margin-top: 15px;
+            display: block;
+            button {
+              padding: 13px 20px;
+              font-size: 14px;
+              color: #555;
+              background: #f1f1f1;
+              border-radius: 20px;
+              border: none;
+            }
+          }
+        }
+      }
+      .dowmfooter {
+        display: block;
+        width: 100%;
+        padding: 15px 0px;
+        .ptext {
+          display: block;
+          p {
+            font-size: 13px;
+            color: hsla(0, 0%, 100%, 0.5);
+          }
+        }
+        .iconbar {
+          display: flex;
+          align-items: center;
+          p {
+            color: hsla(0, 0%, 100%, 0.5);
+            font-size: 12px;
+          }
+          .first {
+            display: block;
+            a {
+              font-size: 16px;
+              color: #405468;
+              border: solid 1px #004080;
+              border-radius: 50%;
+              padding: 6px 10px;
+              &:hover {
+                background: #003399;
+                color: #fff;
+                transition: 0.6s;
+              }
+            }
+          }
+          .second {
+            display: block;
+            a {
+              font-size: 16px;
+              color: #405468;
+              border: solid 1px #004080;
+              border-radius: 50%;
+              padding: 6px 10px;
+              &:hover {
+                background: #004d80;
+                color: #fff;
+                transition: 0.6s;
+              }
+            }
+          }
+        }
+        .third {
+          display: block;
+          a {
+            font-size: 16px;
+            color: #405468;
+            border: solid 1px #004080;
+            border-radius: 50%;
+            padding: 6px 10px;
+            &:hover {
+              background: #007acc;
+              color: #fff;
+              transition: 0.6s;
+            }
+          }
+        }
+        .fourth {
+          display: block;
+          a {
+            font-size: 16px;
+            color: #405468;
+            border: solid 1px #004080;
+            border-radius: 50%;
+            padding: 6px 10px;
+            &:hover {
+              background: #990000;
+              color: #fff;
+              transition: 0.6s;
+            }
+          }
+        }
+        .five {
+          display: block;
+          a {
+            font-size: 16px;
+            color: #405468;
+            border: solid 1px #004080;
+            border-radius: 50%;
+            padding: 6px 10px;
+            &:hover {
+              background: #0059b3;
+              color: #fff;
+              transition: 0.6s;
+            }
+          }
+        }
+        .six {
+          display: block;
+          a {
+            font-size: 16px;
+            color: #405468;
+            border: solid 1px #004080;
+            border-radius: 50%;
+            padding: 6px 10px;
+            &:hover {
+              background: #800000;
+              color: #fff;
+              transition: 0.6s;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -374,3 +374,104 @@
     }
   }
 }
+@media screen and (min-device-width: 768px) and (max-device-width: 992px) {
+  .headerbar {
+    width: 100%;
+    .bannerimg {
+      width: 100%;
+    }
+    .mainnav {
+      width: 100%;
+      .mainhead {
+        width: 100%;
+        display: flex;
+        gap: 32px;
+        align-items: center;
+        position: relative;
+        z-index: 11;
+        .responsibe {
+          display: flex;
+          margin-left: 20px;
+          flex-direction: column;
+          position: absolute;
+          top: 30px;
+          left: 5px;
+          span {
+            display: block;
+            width: 20px;
+            height: 2px;
+            margin-top: 4px;
+            background: #fff;
+          }
+        }
+        .logo {
+          display: flex;
+          margin: auto;
+          width: 140px;
+          justify-content: center;
+          img {
+            width: 100%;
+          }
+        }
+        .navbar {
+          display: none;
+        }
+        .iconbar {
+          display: none;
+        }
+        .inquery {
+          display: none;
+        }
+        .searchbar {
+          display: none;
+        }
+      }
+      .textbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        z-index: 1;
+        height: 100vh;
+        h2 {
+          font-size: 24px;
+          color: #fff;
+          font-weight: 300;
+          padding: 0px 58px;
+          margin: 0;
+          display: block;
+          text-align: center;
+        }
+        p {
+          font-size: 13px;
+          color: #fff;
+          padding: 0px 46px;
+          text-align: center;
+        }
+        .knowbar {
+          display: block;
+          text-align: center;
+          a {
+            font-size: 11px;
+            text-decoration: none;
+            color: #fff;
+            font-weight: 500;
+            border: solid 1px #fff;
+            padding: 7px 20px;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+  .maintext {
+    text-align: center;
+    .textbar {
+      padding: 0px 10px;
+      h2 {
+        font-size: 27px !important;
+      }
+    }
+  }
+}

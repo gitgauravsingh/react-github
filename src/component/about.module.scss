@@ -224,3 +224,20 @@
     }
   }
 }
+@media screen and (min-width: 768px) and (max-device-width: 992px) {
+  .mainbar {
+    .aboutbar {
+      width: 100%;
+      position: relative;
+      .about {
+        .textabout {
+          h2 {
+            font-size: 30px;
+            color: #fff;
+            font-weight: 700;
+          }
+        }
+      }
+    }
+  }
+}

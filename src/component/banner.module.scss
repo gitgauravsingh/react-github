@@ -56,3 +56,14 @@
     }
   }
 }
+@media screen and (min-width: 768px) and (max-device-width: 992px) {
+  .bannerbar {
+    .wrapper {
+      width: 100%;
+      .textbar {
+        display: block;
+        padding: 70px 17px;
+      }
+    }
+  }
+}
