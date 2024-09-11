@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-github/static/css/main.15a755ba.css",
+    "main.css": "/react-github/static/css/main.f193f978.css",
     "main.js": "/react-github/static/js/main.ebb3896d.js",
     "static/media/banner.jpg": "/react-github/static/media/banner.9b98cc31f6a5b846f34a.jpg",
     "static/media/Flag_of_India.png": "/react-github/static/media/Flag_of_India.f90d9222ad816550906f.png",
     "static/media/main.jpg": "/react-github/static/media/main.513d0b2e81e998ec9d00.jpg",
     "index.html": "/react-github/index.html",
-    "main.15a755ba.css.map": "/react-github/static/css/main.15a755ba.css.map",
+    "main.f193f978.css.map": "/react-github/static/css/main.f193f978.css.map",
     "main.ebb3896d.js.map": "/react-github/static/js/main.ebb3896d.js.map"
   },
   "entrypoints": [
-    "static/css/main.15a755ba.css",
+    "static/css/main.f193f978.css",
     "static/js/main.ebb3896d.js"
   ]
 }
